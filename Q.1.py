@@ -32,15 +32,13 @@ print("sum of first ", n, "even number is: ",
       evensum(n))
       
 #sum of n natural numbers
-num = 10
-
-
-if num < 0:
-   print("Enter a positive number")
-else:
-   sum = 0
-   # use while loop to iterate until zero
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum of n numbers is", sum)
+num =int(input("enter"))
+    if num < 0:
+      print("Enter a positive number")
+    else:
+      sum = 0
+   
+      while(num > 0):
+        sum += num
+        num -= 1
+      print("The sum of n numbers is", sum)
