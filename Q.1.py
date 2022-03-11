@@ -43,4 +43,4 @@ else:
    while(num > 0):
        sum += num
        num -= 1
-   print("The sum is", sum)
+   print("The sum of n numbers is", sum)
