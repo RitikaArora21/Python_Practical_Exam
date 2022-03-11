@@ -30,15 +30,15 @@ def evensum(n):
 n = 3
 print("sum of first ", n, "even number is: ",
       evensum(n))
+ 
       
 #sum of n natural numbers
 num =int(input("enter"))
-    if num < 0:
-      print("Enter a positive number")
-    else:
-      sum = 0
-   
-      while(num > 0):
-        sum += num
-        num -= 1
-      print("The sum of n numbers is", sum)
+if num < 0:
+  print("Enter a positive number")
+else:
+  sum = 0
+  while(num > 0):
+    sum += num
+    num -= 1
+  print("The sum of n numbers is", sum)
